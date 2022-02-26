@@ -444,12 +444,12 @@ width: 100%;
 .promo{
   display: flex;
   height: 100%;
-  width: 50%;
+  width: 100%;
   flex-shrink: 0;
   
 }
 .promo__image{
-  width: 50%;
+  width: 80%;
   background: url("img/promo.jpg");
   background-position: center;
   background-size: cover;
@@ -461,7 +461,16 @@ width: 100%;
   padding: 160px 60px;
 }
 
-.promo__right__card p::before {
+.promo__right_card{
+  background-color: white;
+  padding:  30px 40px;
+  border-radius:  25px;
+  font-size: 20px;
+  font-weight:  500;
+  line-height: 26px;
+}
+
+.promo__right_card p::before {
   content: '';
   display: inline-block;
   width: 10px;
@@ -470,5 +479,28 @@ width: 100%;
   background-color: #EC6B29;
   margin-right: 10px;
 }
+
+.promo__right_card p{
+  opacity: 0.8;
+}
+
+.promo__right_card button{
+  background-color: green;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 16px 36px rgb(16 122 28 / 30%);
+  padding:15px 30px;
+  }
+
+  .promo__button-wrap{
+    display: flex;
+    justify-content: center;
+  }
+
+  .promo__text button i{
+    font-size: 15px;
+    margin-left: 5px;
+  }
 
 
